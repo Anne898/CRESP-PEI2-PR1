@@ -1,0 +1,163 @@
+.container-index {
+    display: grid;
+    gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+    row-gap: 0px;
+    margin: 100px 110px 10px 110px;
+    grid-template-areas: "content1 content2 content3 content4" "content1 content2 content3 content4" "text1 text2 text3 text4" "content5 content6 content7 content8" "content5 content6 content7 content8" "text5 text6 text7 text8" "content9 content10 content11 content12" "content9 content10 content11 content12" "text9 text10 text11 text12"
+}
+
+.title-pag {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.imagen {
+    background-size: cover;
+    background-position: center center;
+    max-width: auto;
+    height: auto;
+    background-color: #eea2ab;
+    border-radius: 5px;
+}
+
+.text-content {
+    text-align: center;
+    width: 190px;
+    height: 50px;
+}
+
+.text-content p {
+    margin: 10px;
+    padding: 0;
+}
+
+.content {
+    width: 190px;
+    height: 250px;
+}
+
+.content:hover {
+    opacity: 0.7;
+}
+
+#content1 {
+    grid-area: content1;
+    background-image: url('https://cdn.pixabay.com/photo/2020/12/01/19/07/merengue-cookies-5795230_1280.jpg');
+}
+
+#content2 {
+    grid-area: content2;
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/05/14/11/valentines-day-1955233_1280.jpg');
+}
+
+#content3 {
+    grid-area: content3;
+    background-image: url('https://images.pexels.com/photos/898323/pexels-photo-898323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#content4 {
+    grid-area: content4;
+    background-image: url('https://cdn.pixabay.com/photo/2019/01/10/19/36/valentine-3925930_1280.jpg');
+}
+
+#content5 {
+    grid-area: content5;
+    background-image: url('https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#content6 {
+    grid-area: content6;
+    background-image: url('https://images.pexels.com/photos/4069460/pexels-photo-4069460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#content7 {
+    grid-area: content7;
+    background-image: url('https://images.pexels.com/photos/6534437/pexels-photo-6534437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#content8 {
+    grid-area: content8;
+    background-image: url('https://images.pexels.com/photos/6346166/pexels-photo-6346166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#content9 {
+    grid-area: content9;
+    background-image: url('https://cdn.pixabay.com/photo/2021/02/13/16/33/cookies-6012076_1280.jpg');
+}
+
+#content10 {
+    grid-area: content10;
+    background-image: url('https://images.pexels.com/photos/3186738/pexels-photo-3186738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#content11 {
+    grid-area: content11;
+    background-image: url('https://cdn.pixabay.com/photo/2019/03/22/15/30/cake-balls-4073497_1280.jpg');
+}
+
+#content12 {
+    grid-area: content12;
+    background-image: url('https://images.pexels.com/photos/3604656/pexels-photo-3604656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#text1 {
+    grid-area: text1;
+}
+
+#text2 {
+    grid-area: text2;
+}
+
+#text3 {
+    grid-area: text3;
+}
+
+#text4 {
+    grid-area: text4;
+}
+
+#text5 {
+    grid-area: text5;
+}
+
+#text6 {
+    grid-area: text6;
+}
+
+#text7 {
+    grid-area: text7;
+}
+
+#text8 {
+    grid-area: text8;
+}
+
+#text9 {
+    grid-area: text9;
+}
+
+#text10 {
+    grid-area: text10;
+}
+
+#text11 {
+    grid-area: text11;
+}
+
+#text12 {
+    grid-area: text12;
+}
+
+@media (max-width: 800px) {
+    .container-index {
+        display: grid;
+        gap: 50px;
+        grid-auto-rows: minmax(100px, auto);
+        row-gap: 0px;
+        margin: 110px 110px 10px 110px;
+        grid-template-areas: "content1 content2" "content1 content2" "text1 text2" "content3 content4" "content3 content4" "text3 text4" "content5 content6" "content5 content6" "text5 text6" "content7 content8" "content7 content8" "text7 text8" "content9 content10" "content9 content10" "text9 text10" "content11 content12" "content11 content12" "text11 text12"
+    }
+}
